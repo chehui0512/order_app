@@ -33,7 +33,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView textView5;
 
   @NonNull
-  public final TextView textView8;
+  public final TextView textView7;
 
   @NonNull
   public final TextView txtDrink;
@@ -49,14 +49,14 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnOrder,
       @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
-      @NonNull TextView textView8, @NonNull TextView txtDrink, @NonNull TextView txtSugar,
+      @NonNull TextView textView7, @NonNull TextView txtDrink, @NonNull TextView txtSugar,
       @NonNull TextView txtTakeOut, @NonNull TextView txtUserName) {
     this.rootView = rootView;
     this.btnOrder = btnOrder;
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.textView5 = textView5;
-    this.textView8 = textView8;
+    this.textView7 = textView7;
     this.txtDrink = txtDrink;
     this.txtSugar = txtSugar;
     this.txtTakeOut = txtTakeOut;
@@ -114,9 +114,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
         break missingId;
       }
 
@@ -145,7 +145,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, btnOrder, textView3, textView4,
-          textView5, textView8, txtDrink, txtSugar, txtTakeOut, txtUserName);
+          textView5, textView7, txtDrink, txtSugar, txtTakeOut, txtUserName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
