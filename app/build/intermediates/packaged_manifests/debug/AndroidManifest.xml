@@ -26,9 +26,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Order_App" >
-        <activity
-            android:name="com.example.order_app.OrderDetailActivity"
-            android:exported="false" />
+        <activity android:name="com.example.order_app.DetailActivity" />
         <activity
             android:name="com.example.order_app.MainActivity"
             android:exported="true" >

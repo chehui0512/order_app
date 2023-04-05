@@ -3267,7 +3267,6 @@ id textView4
 id textView5
 id textView6
 id textView7
-id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3426,7 +3425,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_detail
 layout activity_main
 layout activity_order_detail
 layout custom_dialog
